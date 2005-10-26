@@ -9,8 +9,9 @@ Source0:	http://dl.sourceforge.net/efax-gtk/%{name}-%{version}.src.tgz
 # Source0-md5:	e2320281240e6e805182497d1279be42
 Patch0:		%{name}-desktop.patch
 URL:		http://efax-gtk.sourceforge.net/
-BuildRequires:	gtk+2-devel
-BuildRequires:	libsigc++-devel
+BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	libsigc++-devel >= 1.2.3
+BuildRequires:	pkgconfig >= 1:0.9.0
 Requires:	ghostscript
 Conflicts:	efax
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -41,7 +42,6 @@ interfejs u³atwiaj±cy faksowanie.
 %patch0 -p1
 
 %build
-
 %configure
 %{__make}
 
