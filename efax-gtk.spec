@@ -1,5 +1,5 @@
-Summary:	Efax-gtk is a GUI front end for the 'efax' fax program
-Summary(pl):	Efax-gtk jest graficznym interfejsem programu 'efax'
+Summary:	Efax-gtk - a GUI front end for the 'efax' fax program
+Summary(pl):	Efax-gtk - graficzny interfejs do programu 'efax'
 Name:		efax-gtk
 Version:	3.0.6
 Release:	1
@@ -26,9 +26,15 @@ send and receive faxes over class 1 or class 2 fax modems. It has a
 nice interface to help facilitate faxing.
 
 %description -l pl
-Efax-gtk jest graficznym interfejsem prorgamu 'efax'. Mo¿e byc uzywany
-do wysy³ania in odbierania faksów z fax-modemu, oraz do ogl±dania i
-drukowania odebranych faksów.
+Efax-gtk jest graficznym interfejsem prorgamu 'efax'. Mo¿e byæ u¿ywany
+do wysy³ania i odbierania faksów z fax-modemu, oraz do ogl±dania i
+drukowania odebranych faksów. Ma tak¿e interfejs w postaci gniazda
+udostêpniaj±cy "wirtualn± drukarkê" do wysy³ania faksów z procesorów
+tekstu i podobnych programów, a tak¿e mo¿e automatycznie wysy³aæ
+otrzymane faksy poczt± elektroniczn± do okre¶lonego u¿ytkownika i
+automatycznie drukowaæ otrzymane faksy. Ten program mo¿e wysy³aæ i
+odbieraæ faksy przy u¿yciu fax-modemów klasy 1 i 2. Ma przyjemny
+interfejs u³atwiaj±cy faksowanie.
 
 %prep
 %setup -q
@@ -44,6 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
 ln -s %{_bindir}/efax-0.9a $RPM_BUILD_ROOT%{_bindir}/efax
 ln -s %{_bindir}/efix-0.9a $RPM_BUILD_ROOT%{_bindir}/efix
 
@@ -57,6 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/efax-gtkrc
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/%{name}.desktop
-%{_mandir}/man1/**
+%{_mandir}/man1/*
+%dir /var/spool/fax
 /var/spool/fax/efax-gtk-faxfilter
 /var/spool/fax/efax-gtk-socket-client
