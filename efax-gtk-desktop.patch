@@ -1,0 +1,16 @@
+--- efax-gtk-3.0.6.org/efax-gtk.desktop	2005-10-25 00:12:30.059584528 +0200
++++ efax-gtk-3.0.6/efax-gtk.desktop	2005-10-25 00:15:55.535347464 +0200
+@@ -1,9 +1,12 @@
+ [Desktop Entry]
+ Name=Efax-gtk
+ Comment=GUI front end for the efax fax program
++Comment(pl): Graficzny interfejs prorgamu efax
+ TryExec=efax-gtk
+ Exec=efax-gtk
+ Icon=stock_send-fax.png
+ Terminal=false
+ Type=Application
+-Categories=Application;Office;GTK
++Categories=GTK;Office;X-Misc;
++# vim: termencoding=iso-8859-2 fileencoding=utf-8 encoding=utf-8
++
