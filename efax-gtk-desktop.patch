@@ -4,7 +4,7 @@
  [Desktop Entry]
  Name=Efax-gtk
  Comment=GUI front end for the efax fax program
-+Comment(pl): Graficzny interfejs prorgamu efax
++Comment[pl]=Graficzny interfejs prorgamu efax
  TryExec=efax-gtk
  Exec=efax-gtk
  Icon=stock_send-fax.png
