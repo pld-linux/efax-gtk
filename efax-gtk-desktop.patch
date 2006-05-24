@@ -4,7 +4,7 @@
  [Desktop Entry]
  Name=Efax-gtk
  Comment=GUI front end for the efax fax program
-+Comment[pl]=Graficzny interfejs prorgamu efax
++Comment[pl]=Graficzny interfejs programu efax
  TryExec=efax-gtk
  Exec=efax-gtk
  Icon=stock_send-fax.png
@@ -12,5 +12,5 @@
  Type=Application
 -Categories=Application;Office;GTK
 +Categories=GTK;Office;X-Misc;
-+# vim: termencoding=iso-8859-2 fileencoding=utf-8 encoding=utf-8
++# vim: encoding=utf-8
 +
