@@ -1,10 +1,11 @@
---- efax-gtk-3.0.6.org/efax-gtk.desktop	2005-10-25 00:12:30.059584528 +0200
-+++ efax-gtk-3.0.6/efax-gtk.desktop	2005-10-25 00:15:55.535347464 +0200
-@@ -1,9 +1,12 @@
- [Desktop Entry]
+--- efax-gtk-3.0.10.org/efax-gtk.desktop	2006-06-22 10:17:01.000000000 +0200
++++ efax-gtk-3.0.10/efax-gtk.desktop	2006-06-22 10:21:46.000000000 +0200
+@@ -2,10 +2,13 @@
  Name=Efax-gtk
+ Name[zh_TW]=傳真
  Comment=GUI front end for the efax fax program
 +Comment[pl]=Graficzny interfejs programu efax
+ Comment[zh_TW]=efax 傳真軟體的 GUI 前端程式
  TryExec=efax-gtk
  Exec=efax-gtk
  Icon=stock_send-fax.png
@@ -12,5 +13,5 @@
  Type=Application
 -Categories=Application;Office;GTK
 +Categories=GTK;Office;X-Misc;
-+# vim: encoding=utf-8
 +
++# vim: encoding=utf-8

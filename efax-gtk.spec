@@ -1,12 +1,12 @@
 Summary:	Efax-gtk - a GUI front end for the 'efax' fax program
 Summary(pl):	Efax-gtk - graficzny interfejs do programu 'efax'
 Name:		efax-gtk
-Version:	3.0.9
+Version:	3.0.10
 Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/efax-gtk/%{name}-%{version}.src.tgz
-# Source0-md5:	15a0dd6f3c12e1fdcd1ffcbb902314f6
+# Source0-md5:	6f6d137655b43cfd26d107a81f2b8640
 Patch0:		%{name}-desktop.patch
 URL:		http://efax-gtk.sourceforge.net/
 BuildRequires:	gtk+2-devel >= 2.0.0
