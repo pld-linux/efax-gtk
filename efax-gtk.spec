@@ -1,5 +1,5 @@
 Summary:	Efax-gtk - a GUI front end for the 'efax' fax program
-Summary(pl):	Efax-gtk - graficzny interfejs do programu 'efax'
+Summary(pl.UTF-8):   Efax-gtk - graficzny interfejs do programu 'efax'
 Name:		efax-gtk
 Version:	3.0.10
 Release:	1
@@ -26,16 +26,16 @@ user, and automatically print a received fax. This is a program to
 send and receive faxes over class 1 or class 2 fax modems. It has a
 nice interface to help facilitate faxing.
 
-%description -l pl
-Efax-gtk jest graficznym interfejsem prorgamu 'efax'. Mo¿e byæ u¿ywany
-do wysy³ania i odbierania faksów z fax-modemu, oraz do ogl±dania i
-drukowania odebranych faksów. Ma tak¿e interfejs w postaci gniazda
-udostêpniaj±cy "wirtualn± drukarkê" do wysy³ania faksów z procesorów
-tekstu i podobnych programów, a tak¿e mo¿e automatycznie wysy³aæ
-otrzymane faksy poczt± elektroniczn± do okre¶lonego u¿ytkownika i
-automatycznie drukowaæ otrzymane faksy. Ten program mo¿e wysy³aæ i
-odbieraæ faksy przy u¿yciu fax-modemów klasy 1 i 2. Ma przyjemny
-interfejs u³atwiaj±cy faksowanie.
+%description -l pl.UTF-8
+Efax-gtk jest graficznym interfejsem prorgamu 'efax'. MoÅ¼e byÄ‡ uÅ¼ywany
+do wysyÅ‚ania i odbierania faksÃ³w z fax-modemu, oraz do oglÄ…dania i
+drukowania odebranych faksÃ³w. Ma takÅ¼e interfejs w postaci gniazda
+udostÄ™pniajÄ…cy "wirtualnÄ… drukarkÄ™" do wysyÅ‚ania faksÃ³w z procesorÃ³w
+tekstu i podobnych programÃ³w, a takÅ¼e moÅ¼e automatycznie wysyÅ‚aÄ‡
+otrzymane faksy pocztÄ… elektronicznÄ… do okreÅ›lonego uÅ¼ytkownika i
+automatycznie drukowaÄ‡ otrzymane faksy. Ten program moÅ¼e wysyÅ‚aÄ‡ i
+odbieraÄ‡ faksy przy uÅ¼yciu fax-modemÃ³w klasy 1 i 2. Ma przyjemny
+interfejs uÅ‚atwiajÄ…cy faksowanie.
 
 %prep
 %setup -q
